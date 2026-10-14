@@ -1,0 +1,4 @@
+streamlit>=1.39,<2.0
+falkordblite==0.10.0
+python-dotenv>=1.0,<2.0
+pytest>=8.0,<10.0

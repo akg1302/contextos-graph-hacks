@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.streamlit/secrets.toml
+.DS_Store
+*.pyc
+.streamlit/
+coverage.xml
+htmlcov/
+
+# Local FalkorDBLite database files
+data/
