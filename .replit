@@ -1,11 +1,9 @@
 entrypoint = "streamlit_app.py"
 run = "python -m pip install -r requirements.txt && streamlit run streamlit_app.py --server.address 0.0.0.0 --server.port 3000"
-
 [env]
 FALKORDB_MODE = "embedded"
 FALKORDB_GRAPH = "contextos_demo"
 FALKORDB_DATA_DIR = "data"
-
 [[ports]]
 localPort = 3000
 externalPort = 80
